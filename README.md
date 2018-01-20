@@ -1,9 +1,9 @@
 # homebridge-mqtt-sonoffrf-transmitter
 
-Control any RF device with Homebridge like this https://www.aliexpress.com/item/EU-UK-Standard-Remote-Control-Switch-1-Gang-1-Way-RF-433Mhz-Smart-Home-Wall-Switch/32822825423.html?spm=a2g0s.9042311.0.0.j5WAco using Sonoff RF Bridge 433 https://www.itead.cc/sonoff-rf-bridge-433.html with TasmOTA firmware https://github.com/arendst/Sonoff-Tasmota/wiki.
+Control [any RF device like this](https://www.aliexpress.com/item/EU-UK-Standard-Remote-Control-Switch-1-Gang-1-Way-RF-433Mhz-Smart-Home-Wall-Switch/32822825423.html?spm=a2g0s.9042311.0.0.j5WAco) with Homebridge using [Sonoff RF Bridge 433](https://www.itead.cc/sonoff-rf-bridge-433.html) with [TasmOTA firmware](https://github.com/arendst/Sonoff-Tasmota/wiki).
 
 # Installation
-+ Install homebridge-mqttswitch https://github.com/ilcato/homebridge-mqttswitch
++ Install [homebridge-mqttswitch](https://github.com/ilcato/homebridge-mqttswitch)
 + Configure the plugin in config.json with the following parameters
 ## config.json    
     "topics": {
