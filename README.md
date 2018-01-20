@@ -4,6 +4,7 @@ Control any RF device with Homebridge like this https://www.aliexpress.com/item/
 
 + Install homebridge-mqttswitch https://github.com/ilcato/homebridge-mqttswitch
 + Configure the plugin in config.json with the following parameters
+
   {
   "topics": {
  	  "statusGet": 	"stat/sonoff_rf/POWER",
@@ -12,6 +13,7 @@ Control any RF device with Homebridge like this https://www.aliexpress.com/item/
   "onValue": "#D0EC33",
   "offValue": "#D0EC44",
   }
+  
 + StatusGet will not work with RF device. As you can switch manually the RF device Homekit will not show the exact status of the device.
 + Insert any unique RF code for onValue and offValue 1..8388607 or hex #1..#7FFFFF
 + Start Homebridge
