@@ -16,4 +16,4 @@ Control [any RF device like this](https://www.aliexpress.com/item/EU-UK-Standard
 + StatusGet will not work with one way RF device. As you can switch manually the RF device Homekit will not show the exact status of the device.
 + Insert any unique RF code for onValue and offValue 1..8388607 or hex #1..#7FFFFF
 + Start Homebridge
-+ As the new switch is in Homekit do remote control pairing by turning on and off the swtich in Homekit. Long press the RF device button, 2 beeps: turn Homekit switch on, 3 beeps: turn homekit swtich off.
++ As the new switch is in Homekit do remote control pairing by turning on and off the switch in Homekit. Long press the RF device button, 2 beeps: turn Homekit switch on, 3 beeps: turn homekit swtich off.
