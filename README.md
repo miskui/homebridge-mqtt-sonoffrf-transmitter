@@ -5,7 +5,7 @@ Control any RF device with Homebridge like this https://www.aliexpress.com/item/
 # Installation
 + Install homebridge-mqttswitch https://github.com/ilcato/homebridge-mqttswitch
 + Configure the plugin in config.json with the following parameters
-# config.json    
+## config.json    
     "topics": {
       "statusGet": 	"stat/sonoff_rf/POWER",
       "statusSet": 	"cmnd/soonff_rf/RfCode"
