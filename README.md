@@ -19,4 +19,4 @@ Control [any RF device like this](https://www.aliexpress.com/item/EU-UK-Standard
 + As the new switch is in Homekit do remote control pairing by turning on and off the switch in Homekit. Long press the RF device button, 2 beeps: turn Homekit switch on, 3 beeps: turn homekit swtich off.
 
 # References
-Use [homebridge-mqtt-sonoffrf-receiver](https://github.com/miskui/homebridge-mqtt-sonoffrf-receiver) to read RF sensors in Homebridge
+Use [homebridge-mqtt-sonoffrf-receiver](https://github.com/miskui/homebridge-mqtt-sonoffrf-receiver) to read RF sensors in Homebridge.
